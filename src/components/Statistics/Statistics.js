@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from "./Statistics.module.css"
 import generateColor from "js/generateColor";
 
@@ -23,6 +24,12 @@ function Statistics({ title = "", stats}) {
 
         </section>
     )
+}
+
+
+Statistics.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.array.isRequired
 }
 
 export default Statistics;
