@@ -17,9 +17,17 @@ code {
 .main{
   padding: 20px;
 }
+.statistics, .friendList, .table{
+  margin-top: 30px;
+}
 .statistics{
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
-  margin-top: 30px;
+  
 }
+.friendList, .table{
+  display: block;
+  text-align: center;
+}
+
