@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
 import generateColor from 'js/generateColor';
 
-function Statistics({ title = '', stats }) {
+function Statistics({ title, stats }) {
   let widthSection = 410;
   let widthItem = widthSection / stats.length;
   return (
